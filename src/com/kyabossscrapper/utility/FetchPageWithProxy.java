@@ -25,7 +25,7 @@ import org.apache.http.util.EntityUtils;
 
 /**
  *
- * @author GLB-214
+ * @author Nitesh Shah
  */
 public class FetchPageWithProxy {
 
@@ -35,9 +35,9 @@ public class FetchPageWithProxy {
         int portNo = 8083;
         CredentialsProvider credsprovider = new BasicCredentialsProvider();
         credsprovider.setCredentials(
-                new AuthScope("54.174.46.25", portNo),
+                new AuthScope("54.165.241.96", portNo),
                 new UsernamePasswordCredentials("", ""));
-        HttpHost proxy = new HttpHost("54.174.46.25", portNo);
+        HttpHost proxy = new HttpHost("54.165.241.96", portNo);
         //-----------------------------------------------------------------------
         RequestConfig requestConfig = RequestConfig.custom()
                 .setSocketTimeout(5000)
@@ -123,9 +123,9 @@ public class FetchPageWithProxy {
         int portNo = 8083;
         CredentialsProvider credsprovider = new BasicCredentialsProvider();
         credsprovider.setCredentials(
-                new AuthScope("54.174.46.25", portNo),
+                new AuthScope("54.165.241.96", portNo),
                 new UsernamePasswordCredentials("", ""));
-        HttpHost proxy = new HttpHost("54.174.46.25", portNo);
+        HttpHost proxy = new HttpHost("54.165.241.96", portNo);
         //-----------------------------------------------------------------------
         RequestConfig requestConfig = RequestConfig.custom()
                 .setSocketTimeout(5000)
@@ -216,9 +216,9 @@ public class FetchPageWithProxy {
         int portNo = 8083;
         CredentialsProvider credsprovider = new BasicCredentialsProvider();
         credsprovider.setCredentials(
-                new AuthScope("54.174.46.25", portNo),
+                new AuthScope("54.165.241.96", portNo),
                 new UsernamePasswordCredentials("", ""));
-        HttpHost proxy = new HttpHost("54.174.46.25", portNo);
+        HttpHost proxy = new HttpHost("54.165.241.96", portNo);
         //-----------------------------------------------------------------------
         RequestConfig requestConfig = RequestConfig.custom()
                 .setSocketTimeout(5000)

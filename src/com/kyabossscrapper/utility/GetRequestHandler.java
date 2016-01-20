@@ -12,7 +12,7 @@ import java.net.URL;
 
 /**
  *
- * @author GLB-214
+ * @author Nitesh Shah
  */
 public class GetRequestHandler {
 

@@ -4,6 +4,8 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>com.kyabossscrapper.entity.HashCrawledData</class>
     <class>com.kyabossscrapper.entity.HashData</class>
+    <class>com.kyabossscrapper.entity.CategoriesCrawledData</class>
+    <class>com.kyabossscrapper.entity.CategoriesData</class>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/kyabossdb"/>
       <property name="javax.persistence.jdbc.password" value=""/>

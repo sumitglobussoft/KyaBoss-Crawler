@@ -5,10 +5,14 @@
  */
 package com.kyabossscrapper.dao;
 
+import com.kyabossscrapper.entity.CategoriesCrawledData;
+
 /**
  *
- * @author GLB-214
+ * @author Nitesh Shah
  */
 public interface KyaBossDao {
-    
+
+    public void insertCategoriesCrawledData(CategoriesCrawledData objCategoriesCrawledData);
+
 }
